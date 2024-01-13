@@ -19,13 +19,13 @@ html,body{
 
 body{
     margin-top: 30px;
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image:url(imagens/fundo-madeira.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 
-}
+} /*pronto*/
 
 main{
     position:relative;
@@ -36,11 +36,11 @@ main{
 
 section#telefone{
     position: absolute;
-    min-height: 627px;
-    min-width: 311px;
+    height: 627px;
+    width: 311px;
     transform: translate(-50%,-50%);
     top: 50%;
-    left: 60%;
+    left: 70%;
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
 
@@ -50,8 +50,8 @@ iframe#tela{
     position: absolute;
     top: 81px;
     left: 2px;
-   width:267px ;
-    height: 469px ;  
+    width:267px;
+    height: 469px;  
     margin-left: 20px;
 }
 
@@ -74,5 +74,6 @@ section#redes-sociais img:hover{
     border: 3px solid rgba(255, 255, 255, 0.616);
     transition: .3s;
     box-sizing: border-box;
+    
 
-}
+} /*pronto/*
