@@ -40,7 +40,7 @@ section#telefone{
     min-width: 311px;
     transform: translate(-50%,-50%);
     top: 50%;
-    left: 50%;
+    left: 60%;
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
 
@@ -58,10 +58,6 @@ iframe#tela{
 section#redes-sociais{
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    top: 25px;
-    left: 50px ;
-    
 }
 
 section#redes-sociais img{
